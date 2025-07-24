@@ -17,8 +17,7 @@ Given two 4-pixel binary prototype patterns \( p_1 \) and \( p_2 \), and a test 
 Included Files
 - `hebbian_autoassociator.py`: Implements Hebbian rule and tests the output.
 - `pseudoinverse_autoassociator.py`: Implements the pseudoinverse learning method for comparison.
-- `patterns_visual_reference.png`: Screenshot of the original problem from Hagan's book.
-- 
+  
 Key Features
 - Calculates weight matrices using Hebbian and pseudoinverse rules.
 - Applies a `hardlims` activation function to simulate neuron thresholding.
@@ -26,5 +25,5 @@ Key Features
 - Discusses orthogonality and interference effects.
 
 References
-M.T. Hagan, H.B. Demuth, and M.H. Beale, *Neural Network Design*, PWS Publishing, 1996.  
+M.T. Hagan, H.B. Demuth, and M.H. Beale, *Neural Network Design*
 Chapter 7 – Autoassociation and Pattern Recognition.
